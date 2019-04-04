@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+html {
+  scroll-behavior: smooth;
+}
+textarea {
+    -webkit-appearance: none;
+}
+
+input {
+    -webkit-appearance: none;
+}
+
+button {
+    -webkit-appearance: none;
+}
+
+a {
+    -webkit-appearance: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+:root {
+    --main-color: #ed4040!important;
+    --secondary-color: #208eda !important;
+}
+
+:root {
+    --text-color-pink: #080808; /*#ff79b0;*/
+    --text-color-dpink: #080808; /*#eb1e72;*/
+    --text-color-lpink: #ecedef;/*#ffeaf4;*/
+    --text-color-white: #fff;
+    --font-size12: 12px;
+    --font-size13: 13px;
+    --font-size18: 18px;
+}
+.b-shadow{
+        box-shadow: 3px 2px 3px #80808059;
+}
+
+.f-12{
+    font-size: var(--font-size12);
+}
+.f-13{
+    font-size: var(--font-size13);
+}
+.f-18{
+    font-size: var(--font-size18);
+}
+
+.form-control:hover, .form-control:active, .form-control:focus {
+    border-bottom: 1px solid #000;
+    outline: none;
+    box-shadow: none;
+    border-color: #000;
+}
+
+.c-ash{
+  background: #999999!important;
+}
+
+.btn-cus{
+  width: 150px;
+  height: 50px;
+}
+
+.text-muted{
+  color: #c2c2c2!important;
+}
+
+.form_header{
+  position: relative;
+  top: 20px;
+  left: 31px;
+  z-index: 5;
+  display: inline-block;
+  color: #505050;
+}
+.form_header:before{
+  content: '';
+    position: absolute;
+    width: 122px;
+    height: 2px;
+    background: #fff;
+    z-index: -2;
+    top: 12px;
+    left: -7px;
+    width: calc(100% - -15px)
+
+  }
+
+  .border-bottom {
+    border-bottom: 2px solid #e8e8e8!important;
+}
+
+.border-cus {
+    border: 2px solid #e8e8e8!important;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #e1286b;
+    border-color: none;
+}
+
+.page-link{
+  color: #fff;
+  background: #c2c2c2;
+  border-radius: 0px;
+      margin-left: 0px;
+      padding: 15px 23px;
+}
+
+.pagination{
+  border-radius: 0px!important;
+}
+
+.page-item:first-child .page-link{
+  border-radius: 0px!important;
+}
+
+.page-item:last-child .page-link {
+    border-radius: 0px!important;
+}
+
+.pink-color{
+  background: #e1286b!important;
+}
+
+@media(min-width: 992px){
+  .w-37{
+    -webkit-box-flex: 0!important;
+    -ms-flex: 0 0 33.333333%!important;
+    flex: 0 0 37%!important;
+    max-width: 37%!important;
+  }
+  .w-26{
+        -webkit-box-flex: 0!important;
+    -ms-flex: 0 0 33.333333%!important;
+    flex: 0 0 26%!important;
+    max-width: 26%!important;
+  }
+}
